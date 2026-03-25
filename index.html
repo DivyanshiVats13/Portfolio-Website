@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divyanshi Vats | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">R<span>.</span></a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn-primary resume-btn" id="openResumeBtn" aria-label="View Resume"><i class="fas fa-eye"></i> View Resume</button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Floating Background Shapes -->
+    <div class="floating-shapes" id="floatingShapes"></div>
+
+    <main>
+      <!-- Hero / About Section -->
+      <section id="home" class="hero section-padding pt-large">
+        <div class="container hero-content">
+          <div class="hero-text reveal">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">Divyanshi Vats</h1>
+            <h2 class="role">
+              CS & ML
+            </h2>
+            <p class="bio">
+              A passionate problem-solver and developer with expertise in Python, Java, React, and Machine Learning. Experienced in building platform applications and data-driven solutions.
+            </p>
+            <div class="social-links">
+              <a href="https://github.com/DivyanshiVats13" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/Divyanshi-vats03/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="mailto:divyanshivats1305@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              <a href="#" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+            </div>
+          </div>
+          <div class="hero-image reveal right">
+            <div class="image-wrapper">
+              <div class="profile-blob">
+                <img src="Div Photo.png" alt="Divyanshi Vats" class="profile-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section-padding bg-alt">
+        <div class="container">
+          <h2 class="section-title reveal">My Skills</h2>
+
+          <!-- Tech skills: infinite scrolling marquee -->
+          <p class="skills-label reveal"><i class="fas fa-laptop-code"></i> Technical Skills</p>
+          <div class="marquee-outer reveal">
+            <div class="marquee-track">
+              <div class="marquee-content">
+                <span class="skill-pill tech">Python</span>
+                <span class="skill-pill tech">Java</span>
+                <span class="skill-pill tech">JavaScript</span>
+                <span class="skill-pill tech">HTML</span>
+                <span class="skill-pill tech">CSS</span>
+                <span class="skill-pill tech alt">PostgreSQL</span>
+                <span class="skill-pill tech">LeetCode</span>
+                <span class="skill-pill tech alt">GitHub</span>
+                <span class="skill-pill tech">Figma</span>
+                <span class="skill-pill tech alt">Canva</span>
+                <span class="skill-pill tech">Docker</span>
+                <span class="skill-pill tech alt">Kafka</span>
+                <span class="skill-pill tech">Antigravity</span>
+              </div>
+              <div class="marquee-content" aria-hidden="true">
+                <span class="skill-pill tech">Python</span>
+                <span class="skill-pill tech">Java</span>
+                <span class="skill-pill tech">JavaScript</span>
+                <span class="skill-pill tech">HTML</span>
+                <span class="skill-pill tech">CSS</span>
+                <span class="skill-pill tech alt">PostgreSQL</span>
+                <span class="skill-pill tech">LeetCode</span>
+                <span class="skill-pill tech alt">GitHub</span>
+                <span class="skill-pill tech">Figma</span>
+                <span class="skill-pill tech alt">Canva</span>
+                <span class="skill-pill tech">Docker</span>
+                <span class="skill-pill tech alt">Kafka</span>
+                <span class="skill-pill tech">Antigravity</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reverse direction row -->
+          <div class="marquee-outer marquee-reverse reveal">
+            <div class="marquee-track">
+              <div class="marquee-content">
+                <span class="skill-pill tech alt">NumPy</span>
+                <span class="skill-pill tech">Pandas</span>
+                <span class="skill-pill tech alt">Matplotlib</span>
+                <span class="skill-pill tech">Scikit-Learn</span>
+                <span class="skill-pill tech alt">PyTorch</span>
+                <span class="skill-pill tech">React</span>
+                <span class="skill-pill tech alt">Django</span>
+                <span class="skill-pill tech">OpenCV</span>
+                <span class="skill-pill tech alt">MediaPipe</span>
+              </div>
+              <div class="marquee-content" aria-hidden="true">
+                <span class="skill-pill tech alt">NumPy</span>
+                <span class="skill-pill tech">Pandas</span>
+                <span class="skill-pill tech alt">Matplotlib</span>
+                <span class="skill-pill tech">Scikit-Learn</span>
+                <span class="skill-pill tech alt">PyTorch</span>
+                <span class="skill-pill tech">React</span>
+                <span class="skill-pill tech alt">Django</span>
+                <span class="skill-pill tech">OpenCV</span>
+                <span class="skill-pill tech alt">MediaPipe</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft skills: animated badges -->
+          <p class="skills-label reveal" style="margin-top:3rem;"><i class="fas fa-users"></i> Core Competencies</p>
+          <div class="soft-skills-grid reveal">
+            <div class="soft-badge" style="--delay:0s"><i class="fas fa-star"></i><span>Leadership</span></div>
+            <div class="soft-badge" style="--delay:0.1s"><i class="fas fa-puzzle-piece"></i><span>Problem-Solving</span></div>
+            <div class="soft-badge" style="--delay:0.2s"><i class="fas fa-sync-alt"></i><span>Adaptability</span></div>
+            <div class="soft-badge" style="--delay:0.3s"><i class="fas fa-tasks"></i><span>Management</span></div>
+            <div class="soft-badge" style="--delay:0.4s"><i class="fas fa-calendar-check"></i><span>Effective Planning</span></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects section-padding">
+        <div class="container">
+          <h2 class="section-title center reveal">Featured Projects</h2>
+
+          <div class="timeline">
+            <div class="tl-line"></div>
+
+            <!-- 1 (left) -->
+            <div class="tl-item tl-left reveal">
+              <div class="tl-date">Since Dec 2025</div>
+              <div class="tl-flip">
+                <div class="tl-flip-inner">
+                  <div class="tl-front">
+                    <h3>Mini Aladdin</h3>
+                    <ul>
+                      <li>Developing a comprehensive investment management platform to simulate institutional financial scenarios and complex market trends.</li>
+                      <li>Architecting a robust full-stack infrastructure using a Java backend and PostgreSQL database, integrated with a React frontend.</li>
+                      <li>Aiming to provide data-driven asset allocation strategies and precise risk exposure analysis to optimize portfolio growth.</li>
+                    </ul>
+                    <div class="tl-links">
+                      <a href="https://github.com/DivyanshiVats13" target="_blank" class="btn-outline btn-small"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                  </div>
+                  <div class="tl-back" style="display:flex; flex-direction:column; justify-content:space-between; height:100%;">
+                    <img src="mini_aladdin.png" alt="Mini Aladdin" style="width:100%; height:220px; object-fit:cover; border-radius:15px 15px 0 0;">
+                    <div class="tl-front-bar" style="padding: 20px; text-align: left;">
+                      <h3 style="margin-bottom:10px;">Mini Aladdin</h3>
+                      <div class="tl-tech"><span>Java</span><span>PostgreSQL</span><span>React</span><span>Docker</span><span>Kafka</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 (right) -->
+            <div class="tl-item tl-right reveal">
+              <div class="tl-date">Dec 2025</div>
+              <div class="tl-flip">
+                <div class="tl-flip-inner">
+                  <div class="tl-front">
+                    <h3>Water Quality Analyzer</h3>
+                    <ul>
+                      <li>Developed a Water Quality Prediction system designed to classify water potability and ensure safety for consumption.</li>
+                      <li>Implemented the core logic using the XGBoost machine learning algorithm trained on 20 distinct water quality parameters.</li>
+                      <li>Achieved a model accuracy of 97%, successfully enabling precise, real-time assessment of water safety deployed via Flask.</li>
+                    </ul>
+                    <div class="tl-links">
+                      <a href="https://github.com/DivyanshiVats13" target="_blank" class="btn-outline btn-small"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                  </div>
+                  <div class="tl-back" style="display:flex; flex-direction:column; justify-content:space-between; height:100%;">
+                    <img src="detection.jpeg" alt="Water Quality Analyzer" style="width:100%; height:220px; object-fit:cover; border-radius:15px 15px 0 0;">
+                    <div class="tl-front-bar" style="padding: 20px; text-align: left;">
+                      <h3 style="margin-bottom:10px;">Water Quality Analyzer</h3>
+                      <div class="tl-tech"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>XGBoost</span><span>Flask</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 (left) -->
+            <div class="tl-item tl-left reveal">
+              <div class="tl-date">Sep 2025</div>
+              <div class="tl-flip">
+                <div class="tl-flip-inner">
+                  <div class="tl-front">
+                    <h3>Stock Price Predictor</h3>
+                    <ul>
+                      <li>Developed a Machine Learning system analyzing historical price data and technical indicators to forecast stock movements.</li>
+                      <li>Implemented data preprocessing, feature engineering, and hyperparameter tuning to improve prediction accuracy to 89%.</li>
+                      <li>Created an intuitive dashboard showcasing predicted prices, selling/holding classifications, and actionable insights.</li>
+                    </ul>
+                    <div class="tl-links">
+                      <a href="https://github.com/DivyanshiVats13" target="_blank" class="btn-outline btn-small"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                  </div>
+                  <div class="tl-back" style="display:flex; flex-direction:column; justify-content:space-between; height:100%;">
+                    <img src="Stock.png" alt="Stock Price Predictor" style="width:100%; height:220px; object-fit:cover; border-radius:15px 15px 0 0;">
+                    <div class="tl-front-bar" style="padding: 20px; text-align: left;">
+                      <h3 style="margin-bottom:10px;">Stock Price Predictor</h3>
+                      <div class="tl-tech"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Matplotlib</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 (right) --> -->
+              <div class="tl-item tl-right reveal">
+              <div class="tl-date">Jul 2025</div>
+              <div class="tl-flip">
+                <div class="tl-flip-inner">
+                  <div class="tl-front">
+                    <h3>MediHelp</h3>
+                    <ul>
+                      <li>Designed a family-oriented medical assistance app allowing users to track health status, medicines, reports, and appointments.</li>
+                      <li>Added emergency SOS alerts that auto-notify nearby hospitals/ambulances during critical situations.</li>
+                      <li>Integrated AI voice interaction to help elderly users add reports, medicines, or requests hands-free.</li>
+                    </ul>
+                    <div class="tl-links">
+                      <a href="https://github.com/DivyanshiVats13" target="_blank" class="btn-outline btn-small"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                  </div>
+                  <div class="tl-back" style="display:flex; flex-direction:column; justify-content:space-between; height:100%;">
+                    <img src="medihelp.jpeg" alt="MediHelp" style="width:100%; height:220px; object-fit:cover; border-radius:15px 15px 0 0;">
+                    <div class="tl-front-bar" style="padding: 20px; text-align: left;">
+                      <h3 style="margin-bottom:10px;">MediHelp</h3>
+                      <div class="tl-tech"><span>Figma</span><span>Balsamiq</span><span>Stitch</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificates Section -->
+      <section id="certificates" class="certificates section-padding bg-alt">
+        <div class="container">
+          <h2 class="section-title reveal">Certificates</h2>
+          <div class="cert-grid">
+
+            <!-- 1. Oracle AI -->
+            <div class="cert-flip reveal">
+              <div class="cert-flip-inner">
+                <div class="cert-front">
+                  <img src="OCI Certificate.png" alt="Oracle Certificate" style="width:100%; height:200px; object-fit:cover; border-radius:15px 15px 0 0;">
+                  <div class="cert-front-info">
+                    <h4>Oracle AI Foundations</h4>
+                    <p class="issuer">Oracle</p>
+                    <p class="date">Oct 2025</p>
+                  </div>
+                </div>
+                <div class="cert-back">
+                  <h4>Oracle AI Foundations</h4>
+                  <p>Comprehensive overview of Artificial Intelligence concepts, machine learning models, and standard GenAI terminology on Oracle Cloud Infrastructure.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Python for Data Science -->
+            <div class="cert-flip reveal delay-1">
+              <div class="cert-flip-inner">
+                <div class="cert-front">
+                  <div style="width: 100%; height: 200px; background: rgba(5, 150, 105, 0.2); display: flex; align-items: center; justify-content: center; color: var(--accent-primary); font-size: 3rem; border-radius:15px 15px 0 0;"><i class="fas fa-code"></i></div>
+                  <div class="cert-front-info">
+                    <h4>Python for Data Science</h4>
+                    <p class="issuer">Udemy</p>
+                    <p class="date">Oct 2025</p>
+                  </div>
+                </div>
+                <div class="cert-back">
+                  <h4>Python for Data Science</h4>
+                  <p>In-depth coverage of Python programming elements, data manipulation with Pandas, and machine learning applications.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. UCI Management -->
+            <div class="cert-flip reveal delay-2">
+              <div class="cert-flip-inner">
+                <div class="cert-front">
+                  <img src="UCI Certificate.png" alt="UCI Certificate" style="width:100%; height:200px; object-fit:cover; border-radius:15px 15px 0 0;">
+                  <div class="cert-front-info">
+                    <h4>Fundamentals of Management</h4>
+                    <p class="issuer">UC Irvine (Coursera)</p>
+                    <p class="date">Oct 2023</p>
+                  </div>
+                </div>
+                <div class="cert-back">
+                  <h4>Fundamentals of Management</h4>
+                  <p>Developed core management skills focusing on leadership, effective planning, problem solving, and adaptability in organizational structures.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Figma Training -->
+            <div class="cert-flip reveal delay-3">
+              <div class="cert-flip-inner">
+                <div class="cert-front">
+                  <img src="summertraining on design and figma.jpeg" alt="Design Training" style="width:100%; height:200px; object-fit:cover; border-radius:15px 15px 0 0;">
+                  <div class="cert-front-info">
+                    <h4>Think Design Prototype</h4>
+                    <p class="issuer">Lovely Professional University</p>
+                    <p class="date">July 2025</p>
+                  </div>
+                </div>
+                <div class="cert-back">
+                  <h4>Think Design Prototype</h4>
+                  <p>Summer training focusing on UI/UX product design, interactive wireframing, and comprehensive prototyping using Figma.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Hub -->
+      <section class="education-hub section-padding">
+        <div class="container dual-col">
+          <div id="education" class="education-col reveal left">
+            <h2 class="section-title">Education Journey</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Lovely Professional University</h3>
+                  <h4>B.Tech in CSE (AI & ML)</h4>
+                  <span class="timeline-date">Since Aug 2023</span>
+                  <p>India | <strong>Focus: AI & ML</strong></p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Shiksha Bharti Vidyalaya</h3>
+                  <h4>Intermediate (Class XII)</h4>
+                  <span class="timeline-date">2021 – 2022</span>
+                  <p>CBSE Board</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="achievements" class="achievements-col reveal right">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievement-list">
+              <div class="achieve-card">
+                <video src="podcast.mp4" autoplay loop muted style="width: 100px; height: 100px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"></video>
+                <div class="achieve-text">
+                  <h3>Podcast Channel Host</h3>
+                  <p>Launched and hosted a podcast for student entrepreneurs (2 episodes).</p>
+                  <span class="achieve-date">Ongoing</span>
+                </div>
+              </div>
+
+              <div class="achieve-card">
+                <img src="anchor.jpeg" alt="Anchor" style="width: 100px; height: 100px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                <div class="achieve-text">
+                  <h3>HR at Student Org</h3>
+                  <p>Responsible for recruitment, onboarding, and people initiatives at Metaverse.</p>
+                  <span class="achieve-date">Ongoing</span>
+                </div>
+              </div>
+
+              <div class="achieve-card">
+                <img src="debateprize.jpeg" alt="Debate Prize" style="width: 100px; height: 100px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                <div class="achieve-text">
+                  <h3>1st Prize in Debate</h3>
+                  <p>Secured first prize in debate competition held by Infenion in LPU.</p>
+                  <span class="achieve-date">Achieved</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section-padding bg-alt">
+        <div class="container text-center reveal">
+          <h2 class="section-title center">Get in Touch</h2>
+          <p class="contact-desc">
+            Currently looking for new opportunities. Whether you have a question
+            or just want to say hi, I'll try my best to get back to you!
+          </p>
+
+          <div class="contact-methods">
+            <a href="mailto:divyanshivats1305@gmail.com" class="contact-btn"
+              ><i class="fas fa-envelope"></i> Say Hello</a
+            >
+            <p class="phone-num">
+              <i class="fas fa-phone-alt"></i> Contact via Email
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <div class="social-links">
+          <a href="https://github.com/DivyanshiVats13" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/Divyanshi-vats03/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Designed & Built by Divyanshi Vats &copy; 2026</p>
+      </div>
+    </footer>
+
+    <!-- Resume Preview Modal -->
+    <div class="resume-modal-overlay" id="resumeModal">
+      <div class="resume-modal">
+        <button class="resume-modal-close" id="closeResumeBtn"><i class="fas fa-times"></i></button>
+        <div class="resume-modal-body">
+          <iframe src="Divyanshi's Resume .pdf" title="Resume Preview"></iframe>
+        </div>
+        <div class="resume-modal-footer">
+          <a href="#" class="btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume Chatbot Widget -->
+    <div class="chatbot-toggle" id="chatbotToggle" title="Ask about my resume">
+      <i class="fas fa-comments"></i>
+    </div>
+
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-avatar">D</div>
+          <div>
+            <h4>Divyanshi's AI Assistant</h4>
+            <span class="chatbot-status">Online • Ask me anything</span>
+          </div>
+        </div>
+        <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="chat-msg bot">
+          <div class="chat-bubble">Hi there! 👋 I'm Rahul's AI assistant. Ask me about his <strong>skills</strong>, <strong>projects</strong>, or <strong>achievements</strong>!</div>
+        </div>
+      </div>
+      <div class="chatbot-input-area">
+        <input type="text" id="chatbotInput" placeholder="Ask about me..." autocomplete="off">
+        <button id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
